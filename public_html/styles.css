@@ -1,3 +1,4 @@
+/* Reset box model */
 * {
   box-sizing: border-box;
 }
@@ -31,7 +32,7 @@ body {
   overflow: hidden;
   background-color: #2E332B;
   position: sticky;
-  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   box-shadow: 0 2px 4px rgba(47, 51, 44, 0.5);
 }
@@ -133,14 +134,62 @@ body {
   }
 }
 
-/* Second CSS styles added */
-.navbar a:hover {
-  background-color: #445539;
-  color: black;
-}
-
 .main {
   flex: 50%;
   padding: 0 20px;
+}
+
+/* Additional styles for tables */
+.ballistic-table,
+.protection-levels-table,
+.six-five-table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #445539; /* Dark green */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ballistic-table th,
+.ballistic-table td,
+.protection-levels-table th,
+.protection-levels-table td,
+.six-five-table th,
+.six-five-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+
+.ballistic-table th,
+.protection-levels-table th,
+.six-five-table th {
+  background-color: #30332E; /* Darker green */
+  color: white;
+}
+
+/* Additional styles for lists*/
+ul {
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* CSS for images */
+.product-image {
+    max-width: 75%; /* Adjust as needed */
+    height: auto;
+}
+
+.category-link {
+    color: #007bff;
+    text-decoration: none; /* Remove underline */
+}
+
+.category-link:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
