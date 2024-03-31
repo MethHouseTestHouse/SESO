@@ -1,11 +1,11 @@
-# CSCI 1170: Intro to Web Design and Development
+# CSCI 1170
 
 (https://www.youtube.com/watch?v=ifLqzLEB3E0)
 
 ## Info
--Jace Bernard
--ID: B00-986-331
--E-Mail jc474759@dal.ca
+-
+-ID: 
+-E-Mail
 
 This project is for Assignment 3 Winter 2024 web application designed to showcase survival gear and equipment offered by S.E.S.O. It provides users with information about various products, including their specifications and prices.
 
