@@ -1,10 +1,10 @@
-# CSCI 
+# CSCI Project
 
 (https://www.youtube.com/watch?v=ifLqzLEB3E0)
 
 ## Info
--
--ID: 
+-Name: Mikmaq
+-ID: 7.62 NATO
 -E-Mail 
 
 This project is for Assignment 3 Winter 2024 web application designed to showcase survival gear and equipment offered by S.E.S.O. It provides users with information about various products, including their specifications and prices.
