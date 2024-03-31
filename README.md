@@ -1,4 +1,4 @@
-# CSCI 1170
+# CSCI 
 
 (https://www.youtube.com/watch?v=ifLqzLEB3E0)
 
