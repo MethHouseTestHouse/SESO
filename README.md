@@ -1,6 +1,6 @@
 # CSCI Project
 
-(https://www.youtube.com/watch?v=ifLqzLEB3E0)
+[Lesses the pain](https://www.youtube.com/watch?v=ifLqzLEB3E0)
 
 ## Info
 - **Name:** Mikmaq
