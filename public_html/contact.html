@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
-    <title>The Test House Contact</title>
+    <title>SESO Contact - Apocalyptic Survival Gear</title>
     <meta charset="UTF-8">
     <link rel="icon" href="https://www.sesounit.org/assets/img/sesopatch.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,14 +10,15 @@
 <body>
 
 <div class="header">
-    <h1>🇨‌🇴‌🇳‌🇹‌🇦‌🇨‌🇹‌ 🇺‌🇸‌ </h1>
+    <h1>Contact us</h1>
     <p>Feel free n̲o̲t̲ to get in touch with us!</p>
 </div>
 
 <div class="navbar">
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
     <a href="Products.html">Products</a>
+    <a href="Ballistics.html">Ballistics</a>
+    <a href="about.html" >About</a>
     <a href="contact.html" class="active">Contact</a>
 </div>
 
@@ -25,7 +26,7 @@
     <div class="side">
 
         <h5>Photo of some of the team:</h5>
-        <img src="https://www.sesounit.org/assets/img/media/macehunter_ang10.jpeg" alt="Group Photo" style="max-width: 100%; height: auto;">
+        <img src="https://www.sesounit.org/assets/img/media/macehunter_ang10.jpeg" alt="SESO team members posing proudly in front of a UH-H1 helicopter after a successful mission in South Africa on March 22, 2013. The image captures the camaraderie and achievements of the team during their operations." class="product-image">
         <p>South Africa, Mar 22, 2013</p>
 
     </div>
@@ -34,6 +35,7 @@
         <p><strong>Email:</strong> caffeine.fiend.47@fakemail.ca</p>
         <p><strong>Phone:</strong> +46-771-793-336</p>
         <p><strong>Address:</strong> 975 Danforth Ave, Toronto, ON M4J 1M1, Canada</p>
+        <p id="dateDisplay">Loading current date...</p>
     </div>
 </div>
 
@@ -44,6 +46,20 @@
 <script>
     // JavaScript code to update the copyright year
     document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
+<script>
+    var today = new Date();
+    var options = {
+        timeZone: 'America/Halifax', // Atlantic Standard Time
+        hour12: true, // Use 12-hour clock format
+        hour: 'numeric', // Display hours
+        minute: 'numeric', // Display minutes
+        second: 'numeric' // Display seconds
+    };
+    var timeString = today.toLocaleTimeString('en-CA', options);
+    var dateString = today.toDateString();
+    document.getElementById("dateDisplay").textContent = "Today's Date and time for us is " + dateString + " " + timeString;
 </script>
 
 </body>
