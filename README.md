@@ -8,7 +8,7 @@
 - **E-Mail:** methhousetesthouse@gmail.com
 
 
-This project is for Assignment 3 Winter 2024 web application designed to showcase survival gear and equipment offered by S.E.S.O. It provides users with information about various products, including their specifications and prices.
+This project is for Assignment 3 Winter 2024 web application designed to showcase survival gear and equipment offered by S.E.S.O. (Made up company) It provides users with information about various products, including their specifications and prices.
 
 
 ## Features
